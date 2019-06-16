@@ -1,0 +1,24 @@
+{
+  "name": "logstash",
+  "version": "1.0.0",
+  "description": "data processing ",
+  "main": "log.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/spraruna/logstash.git"
+  },
+  "author": "spraruna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/spraruna/logstash/issues"
+  },
+  "homepage": "https://gitlab.com/spraruna/logstash#readme",
+  "dependencies": {
+    "elasticsearch": "^16.1.1",
+    "express": "^4.17.1",
+    "uuid": "^3.3.2"
+  }
+}
